@@ -57,6 +57,22 @@ Open terminal and try execute some kali linux commands
 
 # Output:
 
+<img width="1409" height="1022" alt="image" src="https://github.com/user-attachments/assets/5027467a-295b-498b-9389-6a15a4d9a60e" />
+
+<img width="1828" height="1006" alt="image" src="https://github.com/user-attachments/assets/4426cd7d-5360-418b-894a-650d43eeae91" />
+
+<img width="1834" height="969" alt="image" src="https://github.com/user-attachments/assets/3a52684a-f0f5-4800-879f-66393391901f" />
+
+<img width="1846" height="452" alt="image" src="https://github.com/user-attachments/assets/1180f4ba-fcb8-4391-a036-d8f26d91f82b" />
+
+<img width="1828" height="1060" alt="image" src="https://github.com/user-attachments/assets/be556d74-69d3-4620-a6a6-7d5415812e61" />
+
+<img width="1818" height="1011" alt="image" src="https://github.com/user-attachments/assets/abf9a421-271b-4dba-bded-59601c27f8dc" />
+
+
+
+
+
 
 # DNS Enumeration
 
@@ -86,6 +102,11 @@ Open terminal and try execute some kali linux commands
 
 
 ## OUTPUT:
+
+<img width="821" height="475" alt="image" src="https://github.com/user-attachments/assets/48ea8a56-33cc-42f1-b04d-e87fb2a39327" />
+
+
+
 
 ## Architecture Diagram 
 ```
@@ -121,10 +142,12 @@ Open terminal and try execute some kali linux commands
 **Use case:** Performs DNS zone transfers, brute force subdomains, and gather host IPs.
 
 ```
-dnsenum example.com
+dnsenum saveeeth.ac.in
 ```
 
 ## Output:
+
+<img width="1202" height="693" alt="image" src="https://github.com/user-attachments/assets/2a5d11bd-45bc-4a9a-839f-2a944fc0c2c2" />
 
 
 
@@ -134,7 +157,7 @@ dnsenum example.com
 **Use case:** Brute-forces SMTP to find users.
 
 ```
-smtp-user-enum -M VRFY -U users.txt -t <target-ip>
+smtp-user-enum -M VRFY -U users.txt -t 
 ```
   
  ## Output

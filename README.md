@@ -162,9 +162,11 @@ smtp-user-enum -M VRFY -U users.txt -t
   
  ## Output
   
+<img width="837" height="438" alt="Screenshot 2025-09-02 191859" src="https://github.com/user-attachments/assets/fc0a2197-e35e-46c0-96bc-e006510739ce" />
 
 
 ## nmap –script smtp-enum-users.nse <hostname>
+
 
 **Purpose:** Uses smtp-enum-users NSE script to enumerate valid users on an SMTP server.
 
@@ -175,6 +177,7 @@ nmap -p 25 --script smtp-enum-users.nse <target-ip>
 ```
 ## OUTPUT:
 
+<img width="689" height="233" alt="image" src="https://github.com/user-attachments/assets/f4810a9d-e056-4450-bccc-6260fb84c973" />
 
 
 ## RESULT:
